@@ -30,16 +30,9 @@ public class SpringdataApplication {
 		List<Developer> list = new ArrayList<>();
 		list.add(o1);
 		list.add(o2);
+        for(int i =0;i<list.size();i++){
+          System.out.println("test......");
+		}
 
-		Set<String> collect =
-				list.stream()
-						.map(x -> x.getBook()).map()                           //  Stream<Set<String>>
-						                   //  Stream<String>
-
-		.filter(x -> !x.toLowerCase().contains("python"))   //  filter python book
-						.collect(Collectors.toSet());
-
-
-		collect.forEach(System.out::println);
 	}
 }
