@@ -34,5 +34,6 @@ public class SpringdataApplication {
           System.out.println("test......");
 		}
 
+      SpringApplication.run(SpringdataApplication.class, args);
 	}
 }

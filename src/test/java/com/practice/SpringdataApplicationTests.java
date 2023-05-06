@@ -10,6 +10,7 @@ class SpringdataApplicationTests {
 	void contextLoads() {
 	
 	   System.out.println("Test class modified");
+	   System.out.println("Test class modified"); 	
 	}
 
 }
