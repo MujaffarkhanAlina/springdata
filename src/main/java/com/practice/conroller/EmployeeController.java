@@ -29,7 +29,7 @@ public class EmployeeController {
 
         if(result.hasErrors()){
 
-            throw new BindingException("Payload is not valid");
+            throw new BindingException("Payload is not valid Json");
 
          }
 
