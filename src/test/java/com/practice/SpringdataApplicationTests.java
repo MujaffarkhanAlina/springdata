@@ -8,6 +8,8 @@ class SpringdataApplicationTests {
 
 	@Test
 	void contextLoads() {
+	
+	   System.out.println("Test class modified");
 	}
 
 }
